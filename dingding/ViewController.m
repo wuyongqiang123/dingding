@@ -26,7 +26,7 @@
     self.title = @"联系人";
 
     [self.view addSubview:self.mTableView];
-    //[self requestinfo];
+    [self requestinfo];
 }
 -(NSMutableArray *)dataArr
 {
